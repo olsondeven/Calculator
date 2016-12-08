@@ -1,0 +1,31 @@
+<div class="calc-main">
+
+    <div class="input-screen" ng-model='input'>{{input}}</div>
+    <div class='btn-wrapper'>
+        <div ng-click='inputAdd(7,show)'class="btn">7</div>
+        <div  ng-click='inputAdd(8,show)'class="btn">8</div>
+        <div  ng-click='inputAdd(9,show)'class="btn">9</div>
+        <div ng-click="fnPress('-')" class="btn">-</div>
+        <div ng-click="fnPress('c')" class="btn">C</div>
+    </div>
+
+    <div class='btn-wrapper'>
+        <div ng-click='inputAdd(4,show)' class="btn">4</div>
+        <div ng-click='inputAdd(5,show)'class="btn">5</div>
+        <div ng-click='inputAdd(6,show)' class="btn">6</div>
+        <div ng-click="fnPress('\+')" class="btn">+</div>
+        <div ng-click="fnPress('/')" class="btn">/</div>
+    </div>
+
+    <div class='btn-wrapper'>
+        <div ng-click='inputAdd(1,show)' class="btn">1</div>
+        <div ng-click='inputAdd(2,show)' class="btn">2</div>
+        <div ng-click='inputAdd(3,show)' class="btn">3</div>
+        <div ng-click='inputAdd(0,show)' class="btn">0</div>
+        <div ng-click="fnPress('\*')" class="btn">*</div>
+    </div>
+    <div class="btn-wrapper">
+      <div ng-click='fnPress("enter")' id="enter" class="btn">Enter</div>
+    </div>
+
+</div>
